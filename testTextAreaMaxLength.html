@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="http://tjkdesign.com/ez-css/css/base.css">
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+		<script src = "jquery.textAreaMaxLength.js"></script>
+		<style>
+			.charsCount{
+				color:grey;
+				display: inline;
+			}
+			textarea{
+				display:inline;
+			}
+		</style>
+		<script>
+		jQuery(function(){
+			jQuery('#textareaid').textAreaMaxLength({showCharsCount: true, charsCountMessage: 'written:{written}, left:{left}, max:{maxLength}'});
+		});
+		</script>
+	</head>
+	<body>
+		<div style="border: 1px solid black; margin:20px; padding 2px;max-width:500px;width:600px;display:inline-block;">
+		text: <input type="text" id="hola1" maxlength="10"> <br/>
+		textarea:<br/><span><textarea type="text" id="textareaid" rows = "4" cols = "5" style='width:300px; margin-left:5px;' maxlength='40'></textarea></span>
+
+		
+	</body>
+	
+	
+
+</html>
