@@ -10,6 +10,7 @@
 		'showCharsCount': boolean, default false;
 		'charsCountMessage': string, something like 'You have written {written} chars, you can write {maxLength} chars, you have {left} chars left'
 		Is not a template language, just a simple search and replace. default value is '{written}/{maxLength}'
+		line in comments 3
 	}
 	
 	*/
